@@ -4,15 +4,44 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Pressable
-        style={styles.button}
-        onPress={() => router.push("/exercicio1")}
-      >
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio1")}>
         <Text style={styles.buttonText}>Exercício 1</Text>
       </Pressable>
 
       <Pressable style={styles.button} onPress={() => router.push("/exercicio2")}>
         <Text style={styles.buttonText}>Exercício 2</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio3")}>
+        <Text style={styles.buttonText}>Exercício 3</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio4")}>
+        <Text style={styles.buttonText}>Exercício 4</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio5")}>
+        <Text style={styles.buttonText}>Exercício 5</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio6")}>
+        <Text style={styles.buttonText}>Exercício 6</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio7")}>
+        <Text style={styles.buttonText}>Exercício 7</Text>
+      </Pressable>
+      
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio8")}>
+        <Text style={styles.buttonText}>Exercício 8</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio9")}>
+        <Text style={styles.buttonText}>Exercício 9</Text>
+      </Pressable>
+
+      <Pressable style={styles.button} onPress={() => router.push("/exercicio10")}>
+        <Text style={styles.buttonText}>Exercício 10</Text>
       </Pressable>
     </View>
   );

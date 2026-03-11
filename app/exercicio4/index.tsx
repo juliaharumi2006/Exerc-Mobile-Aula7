@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Meu Primeiro App Expo</Text>
-      <Text style={styles.subtitle}>Construindo interfaces no React Native</Text>
+      <Text style={styles.title}>Professional</Text>
+      <Text style={styles.subtitle}>Professional</Text>
     </View>
   );
 }
@@ -12,18 +12,17 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#b2def4", // Azul claro
+    backgroundColor: "#b7bdc0", // Azul claro
     justifyContent: "center",
     alignItems: "center",
-    gap: "10",
   },
   title: {
     fontSize: 36,
     fontWeight: "bold",
-    color: "#ffffff",
   },
   subtitle: {
     fontSize: 26,
-    color: "#ffffff",
+    fontWeight: "bold",
+    color: "#0da014",
   },
 });
